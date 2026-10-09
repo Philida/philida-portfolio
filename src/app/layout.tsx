@@ -34,6 +34,11 @@ export const metadata: Metadata = {
 
   creator: "Philida Amas Igharo",
 
+  verification: {
+    google: "DXGrtrEzw99E1v0COIGveRYDRvLSewZGALAF6uVL8z0"
+  },
+  
+
   openGraph: {
     title: "Philida Amas Igharo | Junior Backend Engineer",
     description:
