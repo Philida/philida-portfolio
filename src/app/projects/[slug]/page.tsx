@@ -23,7 +23,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${project.title} | Philida Amas Igharo`,
+    title: project.title,
     description: project.description,
     keywords: [
       project.title,
@@ -40,14 +40,14 @@ export async function generateMetadata({
       canonical: `https://philida-portfolio.vercel.app/projects/${project.slug}`,
     },
     openGraph: {
-      title: `${project.title} | Philida Amas Igharo`,
+      title: project.title,
       description: project.description,
       url: `https://philida-portfolio.vercel.app/projects/${project.slug}`,
       type: "website",
     },
     twitter: {
       card: "summary",
-      title: `${project.title} | Philida Amas Igharo`,
+      title: project.title,
       description: project.description,
     },
   };
