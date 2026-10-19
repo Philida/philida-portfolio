@@ -48,6 +48,10 @@ export default function Hero() {
             database-driven applications, and real-time
             backend solutions using Node.js, NestJS,
             TypeScript, PostgreSQL, and MongoDB.
+
+            <br />
+            <br />
+            I am currently expanding my technical skills and motivated to learn C#/.NET and Microsoft Azure.
           </motion.p>
 
           <motion.div
